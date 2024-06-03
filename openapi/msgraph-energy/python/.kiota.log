@@ -1,0 +1,73 @@
+Debug: KiotaBuilder kiota version 1.15.0
+Debug: KiotaBuilder cache file C:\Users\shemogumbe\AppData\Local\Temp\kiota\cache\generation\90BC8E007184A609AF41CDF339FAAC9609F89AF6660F6B1FCE1D640A36FDAE1E\energy_api_sample.yaml not found, downloading from https://raw.githubusercontent.com/shemogumbe/openapi/main/openapi/energy_api_sample.yaml
+Information: KiotaBuilder loaded description from remote source
+Debug: KiotaBuilder step 1 - reading the stream - took 00:00:01.2330741
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/volatilityIndex - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/diffToPrevBasisMid - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/volatilityIndex - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/volatilityIndex - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1basisPriceAssessments~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/diffToPrevBasisMid - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1dataEvents/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1dataEvents/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/volume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/numOfTrades - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/volume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/numOfTrades - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/volume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1indices~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/numOfTrades - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1locationSpreads/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1locationSpreads/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1locationSpreads~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/referenceDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/startDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/endDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/referenceDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/startDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/endDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/referenceDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/startDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1periods~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/endDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1priceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1priceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/volatilityIndex - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1priceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1priceAssessments/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/volatilityIndex - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1priceAssessments~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1priceAssessments~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/volatilityIndex - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1sparkAndDarkSpreads/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1sparkAndDarkSpreads/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1sparkAndDarkSpreads~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/volume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades/get/responses/200/content/application~1vnd.api+json/example/data/0/attributes/totalVolume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/volume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades/get/responses/200/content/application~1vnd.api+json/example/data/1/attributes/totalVolume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/createdForDate - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/volume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1trades~1{id}/get/responses/200/content/application~1vnd.api+json/example/data/attributes/totalVolume - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/IndexModel/properties/attributes/properties/numOfTrades - The format integer is not supported by Kiota for the type number and the string type will be used.
+Debug: KiotaBuilder step 2 - parsing the document - took 00:00:00.5653435
+Debug: KiotaBuilder step 3 - updating generation configuration from kiota extension - took 00:00:00.0002991
+Debug: KiotaBuilder step 4 - filtering API paths with patterns - took 00:00:00.0943899
+Information: KiotaBuilder Client root URL set to https://api.icis.com/energy/v1
+Debug: KiotaBuilder step 5 - checking whether the output should be updated - took 00:00:00.0664524
+Debug: KiotaBuilder step 6 - create uri space - took 00:00:00.0046486
+Debug: KiotaBuilder InitializeInheritanceIndex 00:00:00.0049123
+Debug: KiotaBuilder CreateRequestBuilderClass 00:00:00
+Debug: KiotaBuilder MapTypeDefinitions 00:00:00.0111227
+Debug: KiotaBuilder TrimInheritedModels 00:00:00
+Debug: KiotaBuilder CleanUpInternalState 00:00:00
+Debug: KiotaBuilder step 7 - create source model - took 00:00:00.2024920
+Debug: KiotaBuilder 189ms: Language refinement applied
+Debug: KiotaBuilder step 8 - refine by language - took 00:00:00.1925627
+Debug: KiotaBuilder step 9 - writing files - took 00:00:00.9290559
+Debug: KiotaBuilder cache file C:\Users\shemogumbe\AppData\Local\Temp\kiota\cache\generation\90BC8E007184A609AF41CDF339FAAC9609F89AF6660F6B1FCE1D640A36FDAE1E\energy_api_sample.yaml is up to date and clearCache is False, using it
+Information: KiotaBuilder loaded description from remote source
+Debug: KiotaBuilder step 10 - writing lock file - took 00:00:00.2049602
+Debug: KiotaBuilder Api manifest path: C:\Users\shemogumbe\kiota\src\kiota\apimanifest.json
