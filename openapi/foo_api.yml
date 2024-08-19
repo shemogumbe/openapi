@@ -1,0 +1,33 @@
+openapi: 3.0.2
+
+info:
+  version: '0000-00-00'
+  title: FormSerializationWriter bug
+paths:
+  /foo:
+    post:
+      tags:
+        - "Foo"
+      operationId: foo
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                bar:
+                  type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  stat:
+                    type: string
+                    enum:
+                      - OK
+                  response:
+                    type: string
