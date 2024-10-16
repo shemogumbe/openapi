@@ -1,0 +1,19 @@
+openapi: 3.0.1
+info:
+  title: Names API
+  version: 1.0.0
+paths:
+  /names:
+    get:
+      summary: Get names
+      operationId: getNames
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                uniqueItems: true
+                items:
+                  type: string
