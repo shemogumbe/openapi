@@ -1,24 +1,28 @@
-    '200':
-      description: The HTTP `200 OK` success status response code indicates that the request has succeeded.
-      content:
-        application/vnd.api+json:
-          schema:
-            type: object
-            description: A list of LocationSpread entities.
-            properties:
-              links:
-                type: object
-                properties:
-                  next:
-                    type: string
-                    nullable: true
-              data:
-                type: array
-                items:
-                  $ref: '#/components/schemas/LocationSpreadModel'
-              included:
-                type: array
-                items:
-                  anyOf:
-                    - $ref: '#/components/schemas/PeriodModel'
-                    - $ref: '#/components/schemas/LocationSpreadSpecificationModel'
+openapi: 3.0.1
+info:
+  title: Bookings
+  version: v1.0
+  '200':
+    description: The HTTP `200 OK` success status response code indicates that the request has succeeded.
+    content:
+      application/vnd.api+json:
+        schema:
+          type: object
+          description: A list of LocationSpread entities.
+          properties:
+            links:
+              type: object
+              properties:
+                next:
+                  type: string
+                  nullable: true
+            data:
+              type: array
+              items:
+                $ref: '#/components/schemas/LocationSpreadModel'
+            included:
+              type: array
+              items:
+                anyOf:
+                  - $ref: '#/components/schemas/PeriodModel'
+                  - $ref: '#/components/schemas/LocationSpreadSpecificationModel'
